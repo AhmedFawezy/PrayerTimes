@@ -1,11 +1,11 @@
-# PrayerTimes (Daily Muslim's Fortress App)
+# PrayerTimes ()
 ## Screenshots
 
 <table style="width:100%">
   <tr>
-    <td><img src="screenshotsmain.png"/></th>
-     <td><img src="screenshotsmain2.png"/></th>
-         <td><img src="screenshotsmain2.png"/></th>
+    <td><img src="PrayerTimes/previewscreenshotsmain.png"/></th>
+    <td><img src="PrayerTimes/previewscreenshotsmain2.png"/></th>
+    <td><img src="PrayerTimes/previewscreenshotsmain2.png"/></th>
   </tr>
 </table>
  
