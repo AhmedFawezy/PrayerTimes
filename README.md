@@ -3,9 +3,9 @@
 
 <table style="width:100%">
   <tr>
-    <td><img src="PrayerTimes/previewscreenshotsmain.png"/></th>
-    <td><img src="PrayerTimes/previewscreenshotsmain2.png"/></th>
-    <td><img src="PrayerTimes/previewscreenshotsmain2.png"/></th>
+    <td><img src="PrayerTimes/preview/screenshotsmain.png"/></th>
+    <td><img src="PrayerTimes/preview/screenshotsmain2.png"/></th>
+    <td><img src="PrayerTimes/preview/screenshotsmain2.png"/></th>
   </tr>
 </table>
  
@@ -13,8 +13,9 @@
 ## :sparkles: Features:
 
 - Prayer Times
-- Morning&Evening Remembrance
- 
+- Qibla Direction
+- Prayer Times Wallpapers
+- Prayer Times Notifications
 - App Widget
 
 
