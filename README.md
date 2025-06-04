@@ -3,7 +3,7 @@
 
 <table style="width:100%">
   <tr>
-    <td><img src="PrayerTimes/preview/screenshotsmain.png"/></th>
+    <td><img src="PrayerTimes/preview/ScreenshotsMain.png"/></th>
     <td><img src="PrayerTimes/preview/screenshotsmain1.png"/></th>
     <td><img src="PrayerTimes/preview/screenshotsmain2.png"/></th>
   </tr>
