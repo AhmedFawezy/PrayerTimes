@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="match_parent"
+	android:layout_width="match_parent"
+	android:gravity="center|top"
+	android:orientation="vertical"
+	android:background="#006F65">
+
+	<RelativeLayout
+		android:id="@+id/linear1"
+		android:paddingBottom="16dp"
+		android:layout_width="match_parent"
+		android:layout_height="400dp"
+		android:background="@drawable/bglinear">
+
+		<RelativeLayout
+			android:id="@+id/linear2"
+			android:layout_width="300dp"
+			android:layout_height="300dp"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="vertical"
+			android:layout_centerInParent="true">
+
+			<com.PrayerTimes.SquareImageView
+				android:id="@+id/imgViewCompass"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_centerInParent="true"
+				android:src="@drawable/madina"
+				android:layout_centerHorizontal="true"
+				android:layout_centerVertical="true"/>
+
+			<com.PrayerTimes.SquareImageView
+				android:id="@+id/front"
+				android:layout_height="200dp"
+				android:layout_width="200dp"
+				android:src="@drawable/front"
+				android:layout_centerHorizontal="true"
+				android:layout_centerVertical="true"
+				android:layout_centerInParent="true"/>
+
+			<com.PrayerTimes.SquareImageView
+				android:id="@+id/qibla_arrow"
+				android:layout_centerInParent="true"
+				android:layout_width="200dp"
+				android:layout_height="200dp"
+				android:src="@drawable/compass_needle1"
+				android:layout_centerHorizontal="true"
+				android:layout_centerVertical="true"/>
+
+			<com.PrayerTimes.QiblaCompassView
+				android:layout_centerInParent="true"
+				android:scaleType="centerInside"
+				android:layout_gravity="center_vertical"
+				android:layout_centerHorizontal="true"
+				android:layout_centerVertical="true"
+				android:id="@+id/img1"
+				android:padding="20dp"
+				android:layout_width="180dp"
+				android:layout_height="180dp"/>
+
+		</RelativeLayout>
+
+	</RelativeLayout>
+
+	<TableLayout
+		android:layout_below="@id/linear1"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:orientation="vertical"
+		android:layout_marginTop="20dp">
+
+		<TableRow
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content">
+
+			<TextView
+				android:textColor="#FFFFFF"
+				android:textSize="16sp"
+				android:id="@+id/moonset"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="Text"/>
+
+			<TextView
+				android:textSize="16sp"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="\t"/>
+
+			<TextView
+				android:textColor="#9E9E9E"
+				android:textSize="16sp"
+				android:id="@+id/sunset"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="Text"/>
+
+		</TableRow>
+
+		<TableRow
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content">
+
+			<TextView
+				android:textSize="16sp"
+				android:textColor="#2EBEC3"
+				android:id="@+id/comp_city"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="City"/>
+
+			<TextView
+				android:textSize="16sp"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:text="\t"/>
+
+			<TextView
+				android:textSize="16sp"
+				android:textColor="#9E9E9E"
+				android:id="@+id/comp_heading"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="heading"/>
+
+		</TableRow>
+
+		<TextClock
+			android:padding="16dp"
+			android:format12Hour="hh:mm:ss a"
+			android:textSize="18sp"
+			android:textStyle="bold"
+			android:textColor="#FFFFFF"
+			android:layout_weight="1"
+			android:background="@drawable/bgtxt"
+			android:layout_gravity="right|center"
+			android:gravity="center"
+			android:layout_height="wrap_content"
+			android:layout_width="100dp"/>
+
+	</TableLayout>
+
+</LinearLayout>
+

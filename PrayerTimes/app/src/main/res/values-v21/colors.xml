@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	 
+	<color name="brown_background_color">#ff5F4135</color>
+	<color name="background_color">#015160</color>
+	<color name="marker_color">#FFFFFF</color>
+	<color name="text_color">#FFFFFF</color>
+	<!--Fajr Isha Coloring -->
+    <color name="yellow_color">#FFFF00</color>
+	<color name="redblack_color">#FF0000</color>
+	<color name="light_blue_color">#ADD8E6</color>
+
+</resources>

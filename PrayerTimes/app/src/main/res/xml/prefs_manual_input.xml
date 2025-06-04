@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="Moon Calendar Settings" android:key="MoonCalendar_Settings">
+	<PreferenceCategory android:title="Location Information">
+		<CheckBoxPreference android:title="Manually Input the Position" android:key="prefs_is_manual_input" android:defaultValue="false" android:summaryOn="If this CheckBox is enabled, manual entries of location will be used and input values will be overwritten to current GPS position." android:summaryOff="If this CheckBox is enabled, manual entries of location will be used and input values will be overwritten to current GPS position." />
+		<EditTextPreference android:title="City Name" android:key="prefs_custom_city" android:summary="Custom City Name" android:dependency="prefs_is_manual_input" android:defaultValue="CustomCity" />
+		<EditTextPreference android:name="Latitude"  android:title="Enter Latitude Values" android:key="prefs_lat" android:summary="Enter Latitude Values in Degrees [+]Northern Hemisphere [-90Â°,90Â°]" android:dependency="prefs_is_manual_input" android:defaultValue="0" />
+		<EditTextPreference android:name="Longitude"  android:title="Enter Longitude Value" android:key="prefs_long" android:summary="Enter Longitude Value in Degrees [+]East [-180Â°,180Â°]" android:dependency="prefs_is_manual_input" android:defaultValue="0" />
+		<EditTextPreference android:name="TimeZone"   android:title="Time Zone" android:key="prefs_timezone" android:summary="Set Time Zone [-11,+13]" android:dependency="prefs_is_manual_input" android:defaultValue="3" />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="Advanced Settings">
+		<EditTextPreference android:name="Moon Elongation" android:enabled="false"  android:title="NewCrescent Phase angle" android:key="prefs_elongation" android:summary="Earth Moon and Sun Elongation Angle angle to determine New Crescent time at the Lunar Cycles" android:defaultValue="8" />
+		<ListPreference   android:title="Hijri Date Adjustment" android:key="prefs_adjustment" android:summary="Hijri Date Adjustment Only -1 and -2 is advised." android:defaultValue="0" android:dialogTitle="Hijri Date Adjustment" />
+		<EditTextPreference android:name="Temperature"   android:title="Air Temperature" android:key="prefs_temperature" android:summary="Air Temperature in Celcius" android:defaultValue="10" />
+		<EditTextPreference android:name="Pressure"   android:title="Air Pressure" android:key="prefs_pressure" android:summary="Air Pressure of Location in hPA" android:defaultValue="1010" />
+		<EditTextPreference android:name="Altitude"  android:title="Altitude" android:key="prefs_altitude" android:summary="Altitude values above the Sea Level in meters" android:defaultValue="0" />
+	</PreferenceCategory>
+</PreferenceScreen>

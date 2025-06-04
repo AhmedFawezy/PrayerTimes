@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" android:title="settings_prayer_time">
+	<PreferenceCategory android:title="@string/settings_prayers_times">
+		<ListPreference 
+			
+			android:entries="@array/adjustments" 
+			android:title="@string/fajr1" 
+			android:key="offset_fajr" 
+			android:icon="@drawable/icons3" 
+			android:defaultValue="0" 
+			android:dialogTitle="@string/offset_isha_dialogTitle"
+			android:entryValues="@array/adjustments"
+			/>
+		<ListPreference 
+			
+		    android:entries="@array/adjustments" 
+			android:title="@string/dhuhr1" 
+			android:key="offset_dohr" 
+			android:defaultValue="0" 
+			android:dialogTitle="@string/offset_isha_dialogTitle"
+			android:entryValues="@array/adjustments"
+			android:icon="@drawable/sun" 
+			/>
+		<ListPreference 
+			
+			android:defaultValue="0" 
+			android:dialogTitle="@string/offset_isha_dialogTitle"
+			android:entryValues="@array/adjustments"
+			android:entries="@array/adjustments" 
+			android:title="@string/asr1" 
+			android:key="offset_asr"
+			android:icon="@drawable/icons5"
+			/>
+		<ListPreference 
+			
+			android:defaultValue="0" 
+			android:dialogTitle="@string/offset_isha_dialogTitle"
+			android:entryValues="@array/adjustments"
+			android:entries="@array/adjustments" 
+			android:title="@string/maghrib1" 
+			android:key="offset_maghrib" 
+			android:icon="@drawable/icons1"
+			/>
+		<ListPreference 
+			
+			android:defaultValue="0" 
+			android:dialogTitle="@string/offset_isha_dialogTitle"
+			android:entryValues="@array/adjustments"
+			android:entries="@array/adjustments" 
+			android:title="@string/isha1" 
+			android:key="offset_isha" 
+			android:icon="@drawable/icons2"
+			/>
+	</PreferenceCategory>
+</PreferenceScreen>

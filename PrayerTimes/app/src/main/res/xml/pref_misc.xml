@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/language_and_about">
+        <ListPreference
+			
+			android:icon="@drawable/translation" 
+            android:entries="@array/pref_language_list"
+            android:title="@string/lang_select_option_title"
+            android:key="selectLanguage"
+            android:summary="@string/lang_select_option_summary"
+            android:defaultValue="English"
+            android:entryValues="@array/pref_lang_return_val" />
+		<Preference android:title="@string/settings_about_title" 
+			android:key="settings_About"
+			android:icon="@drawable/icons8" 
+			android:summary="@string/settings_about_summary" />
+		
+	</PreferenceCategory>
+	<PreferenceCategory
+        android:title="@string/problemsRepair">
+		<Preference android:title="@string/tnotifications" 
+			android:key="settings_notifications_app"
+			android:icon="@drawable/ic_notifications1" 
+			android:summary="@string/mnotifications" />
+		<Preference android:title="@string/tbattery" 
+			android:key="settings_Battery"
+			android:icon="@drawable/battery" 
+			android:summary="@string/mbattery" />
+		<Preference android:title="@string/ettoast" 
+			android:key="Exit"
+			android:icon="@drawable/icexit" 
+			android:summary="@string/etoast" />
+	</PreferenceCategory>
+</PreferenceScreen>

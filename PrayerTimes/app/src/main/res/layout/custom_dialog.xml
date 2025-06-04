@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:gravity="left"
+	android:background="#FAF3D6"
+	android:id="@+id/linear">
+
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:orientation="horizontal"
+		android:gravity="center"
+		android:layout_gravity="center"
+		android:background="#F3E9D0">
+
+		<FrameLayout
+			android:id="@+id/mainFrameLayout1"
+			android:gravity="center"
+			android:layout_height="70dp"
+			android:layout_width="70dp"
+			android:layout_gravity="center">
+
+			<com.PrayerTimes.CircularFillableLoaders
+				app:cfl_border="true"
+				app:cfl_border_width="2dp"
+				app:cfl_progress="65"
+				app:cfl_wave_amplitude="0.08"
+				app:cfl_wave_color="#3041FD00"
+				android:layout_height="70dp"
+				android:layout_width="70dp"
+				android:src="@drawable/afg1"
+				android:id="@+id/mainImageView1"
+				android:layout_gravity="center_vertical"/>
+			
+		</FrameLayout>
+
+	</LinearLayout>
+
+	<View
+		android:layout_height="1dp"
+		android:layout_width="match_parent"
+		android:background="#069799"
+		android:layout_marginBottom="10dp"/>
+
+	<TextView
+		android:id="@+id/textview1"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:gravity="left"
+		android:layout_marginBottom="10dp"/>
+
+	<View
+		android:layout_height="1dp"
+		android:layout_width="match_parent"
+		android:background="#069799"
+		android:layout_marginBottom="10dp"/>
+	<View
+		android:layout_height="1dp"
+		android:layout_width="match_parent"
+		android:background="#069799"
+		android:layout_marginBottom="10dp"/>
+	<View
+		android:layout_height="1dp"
+		android:layout_width="match_parent"
+		android:background="#069799"
+		android:layout_marginBottom="10dp"/>
+	<LinearLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:orientation="horizontal"
+		android:gravity="center"
+		android:layout_gravity="center">
+
+		<Button
+			android:id="@+id/button1"
+			android:layout_height="wrap_content"
+			android:layout_width="200dp"
+			android:text="@string/buttondialoginfo"
+			android:layout_marginBottom="10dp"
+			android:layout_marginTop="5dp"
+			android:textColor="#FFFFFF"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:padding="16dp"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<EditText
+		android:textColor="#79F500"
+		android:gravity="center"
+		android:id="@+id/searchTextBox"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:hint="@string/look_for_your_city_"
+		android:ems="10"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentTop="true"
+		android:layout_alignParentRight="true"
+		android:background="@drawable/bgdate1">
+
+		<requestFocus/>
+
+	</EditText>
+
+	<ListView
+		
+		android:id="@+id/listView1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/searchTextBox"
+		android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
+

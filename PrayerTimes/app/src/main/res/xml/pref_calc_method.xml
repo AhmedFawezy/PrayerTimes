@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/calculations">
+        <ListPreference
+			
+			android:icon="@drawable/icons14" 
+            android:entries="@array/calc_method_array"
+            android:title="@string/calc_method_pref_title"
+            android:key="calc_method_pref"
+            android:summary="@string/calc_method_pref_summary"
+            android:defaultValue="@string/calc_method_pref_title"
+            android:entryValues="@array/calc_method_ret_val" />
+        <ListPreference
+			
+			android:icon="@drawable/icons13" 
+            android:entries="@array/asr_method_array"
+            android:title="@string/asr_method_pref_title"
+            android:key="asr_method_pref"
+            android:summary="@string/asr_method_pref_summary"
+            android:defaultValue="Shafii, Hanbali, Maliki"
+            android:entryValues="@array/asr_method_ret_val" />
+		<ListPreference 
+			
+			android:icon="@drawable/icons11" 
+			android:entries="@array/high_latitudes" 
+			android:title="@string/settings_high_lats_title" 
+			android:key="settings_high_lats"  
+			android:defaultValue="0" 
+			android:dialogTitle="High Latitudes" 
+			android:entryValues="@array/high_latitudes" />
+		
+		
+		
+		
+		<ListPreference 
+			
+			android:icon="@drawable/datehg1" 
+			android:entries="@array/hijriAdjustments"
+			android:title="@string/settings_islamic_date_title"
+			android:key="settings_islamic_date"
+			android:defaultValue="0"
+			android:dialogTitle="Adjust Islamic Date"
+			android:entryValues="@array/hijriAdjustments" />
+		<ListPreference 
+			
+			android:icon="@drawable/tenses" 
+			android:entries="@array/time_format" 
+			android:title="@string/settings_time_format_title" 
+			android:key="settings_time_format"
+			android:defaultValue="0"
+			android:dialogTitle="Time Format"
+			android:entryValues="@array/time_format" />
+		
+		<SwitchPreference 
+			android:icon="@drawable/icons9" 
+			android:title="@string/use_dst_option_title" 
+			android:key="use_dst_option" 
+			android:defaultValue="false" 
+			android:switchTextOff="OFF" 
+			android:switchTextOn="ON"
+			android:summaryOn="@string/summary_on"
+			android:summaryOff="@string/summary_off"/>
+</PreferenceCategory>
+</PreferenceScreen>

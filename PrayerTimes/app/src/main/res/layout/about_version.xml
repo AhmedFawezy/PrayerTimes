@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="#009688"
+		android:orientation="vertical"
+		android:layout_gravity="center_horizontal|center_vertical">
+
+		<LinearLayout
+			android:id="@+id/linear2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="horizontal">
+
+			<com.PrayerTimes.CircularFillableLoaders
+				app:cfl_border="true"
+				app:cfl_border_width="4dp"
+				app:cfl_progress="65"
+				app:cfl_wave_amplitude="0.08"
+				app:cfl_wave_color="#30FE00AE"
+				android:id="@+id/imageview1"
+				android:layout_width="150dp"
+				android:layout_height="150dp"
+				android:src="@drawable/afg1"
+				android:scaleType="centerInside"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/linear3"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="5dp"
+			android:gravity="center"
+			android:orientation="horizontal"
+			android:layout_gravity="center">
+
+			<TextView
+				android:id="@+id/textview1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="5dp"
+				android:background="#009688"
+				android:ellipsize="marquee"
+				android:focusable="true"
+				android:focusableInTouchMode="true"
+				android:marqueeRepeatLimit="marquee_forever"
+				android:scrollHorizontally="true"
+				android:singleLine="true"
+				android:text="@string/infoapp"
+				android:textSize="20sp"
+				android:textStyle="bold"
+				android:textColor="#29ACE3"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/linear4"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:gravity="center"
+			android:orientation="horizontal">
+
+			<TextView
+				android:id="@+id/textview2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="8dp"
+				android:text="@string/developer_information"
+				android:textSize="16sp"
+				android:textStyle="bold"
+				android:textColor="#381C44"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/linear5"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="5dp"
+			android:orientation="horizontal"
+			android:gravity="center">
+
+			<TextView
+				android:id="@+id/textview3"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:padding="5dp"
+				android:text="@string/mywebsite"
+				android:textAlignment="center"
+				android:autoLink="web"
+				android:textSize="20sp"
+				android:textStyle="bold"
+				android:textColor="#E91E63"
+				android:background="@drawable/bgbutton"
+				android:textColorLink="#1010E5"/>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/linear6"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="5dp"
+			
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="horizontal">
+
+			<Button
+				android:id="@+id/button1"
+				android:layout_width="200dp"
+				android:layout_height="wrap_content"
+				android:padding="5dp"
+				android:text="@string/share"
+				android:textSize="20sp"
+				android:textStyle="bold"
+				android:textColor="#FFFFFF"
+				android:background="@drawable/bgbutton"
+				/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</LinearLayout>
+

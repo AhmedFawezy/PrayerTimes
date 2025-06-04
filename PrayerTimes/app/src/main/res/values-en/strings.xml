@@ -1,0 +1,183 @@
+<resources>
+
+
+
+
+
+	<string	name="manual_select_summary"	translatable="false">Manually select the location</string>
+	<string	name="auto_detect_summary"	translatable="false">Detects your location automatically</string>
+	<string	name="lat_title"	translatable="false">Latitude</string>
+	<string	name="manually_input"	translatable="false">Manually Input</string>
+	<string	name="manual_select_title"	translatable="false">Manually Choose...</string>
+	<string	name="auto_detect_title"	translatable="false">Auto Detect</string>
+	<string	name="timezone_title"	translatable="false">Timezone</string>
+	<string	name="cityname_title"	translatable="false">City</string>
+	<string	name="lon_title"	translatable="false">Longitude</string>
+	<string	name="location"	translatable="false">Location</string>
+	<string	name="calculations"	translatable="false">Calculations</string>
+	<string	name="use_dst_option_title"	translatable="false">Daylight Saving Time (DST)</string>
+	<string	name="settings_time_format_title"	translatable="false">Time Format</string>
+	<string	name="settings_islamic_date_title"	translatable="false">Adjust Islamic Date</string>
+	<string	name="settings_high_lats_title"	translatable="false">High Latitudes</string>
+	<string	name="asr_method_pref_summary"	translatable="false">Choose Asr calculation method</string>
+	<string	name="asr_method_pref_title"	translatable="false">Method Asr Calculation</string>
+	<string	name="calc_method_pref_summary"	translatable="false">Choose prayer times calculation method</string>
+	<string	name="calc_method_pref_title"	translatable="false">Calculation method</string>
+	<string	name="summary_on"	translatable="false">Disable daylight saving time</string>
+	<string	name="summary_off"	translatable="false">Enable daylight saving time only if it is not enabled by your phone.</string>
+	<string	name="enable_ishaadhan_title"	translatable="false">Isha Adhan</string>
+	<string	name="enable_maghribadhan_title"	translatable="false">Maghrib Adhan</string>
+	<string	name="enable_asradhan_title"	translatable="false">Asr Adhan</string>
+	<string	name="enable_dhuhradhan_title"	translatable="false">Dhuhr Adhan</string>
+	<string	name="enable_fajradhan_title"	translatable="false">Fajr Adhan</string>
+	<string	name="enable_adhan_title"	translatable="false">Enable Athan</string>
+	<string	name="enable_notifs_title"	translatable="false">Enable Notifications</string>
+	<string	name="offset_isha_dialogTitle"	translatable="false">Adjustments Times</string>
+	<string	name="settings_prayers_times"	translatable="false">Settings Prayers Times</string>
+	<string	name="settings_about_summary"	translatable="false">This parameter allows you to Sharing app and info app</string>
+	<string	name="settings_about_title"	translatable="false">About And Version</string>
+	<string	name="lang_select_option_summary"	translatable="false">Choose the language of the app</string>
+	<string	name="language_and_about"	translatable="false">Language And About</string>
+	<string	name="lang_select_option_title"	translatable="false">Select Language</string>
+	<string	name="look_for_your_city_"	translatable="false">Look for your city ...</string>
+	<string	name="now_time"	translatable="false">now time:</string>
+	<string	name="my_city"	translatable="false">in city</string>
+	<string	name="datehj"	translatable="false"> h </string>
+	<string	name="dateco"	translatable="false">C</string>
+	<string	name="dategr"	translatable="false">G</string>
+	<string	name="isha_____"	translatable="false">Isha     </string>
+	<string	name="maghrib"	translatable="false">Maghrib</string>
+	<string	name="asr____"	translatable="false">Asr    </string>
+	<string	name="dhuhr___"	translatable="false">Dhuhr   </string>
+	<string	name="sunrise"	translatable="false">Sunrise</string>
+	<string	name="fajr___"	translatable="false">Fajr   </string>
+	<string	name="city"	translatable="false">City:</string>
+	<string	name="next_prayer_____"	translatable="false">Next prayer:     </string>
+	<string	name="time"	translatable="false">Time</string>
+	<string	name="friday"	translatable="false">Friday</string>
+	<string	name="pref_settings_prayer_offset"	translatable="false">settings_prayer_offset</string>
+	<string	name="pref_settings_prayer_offset_asr"	translatable="false">settings_prayer_offset_asr</string>
+	<string	name="pref_settings_prayer_offset_dohr"	translatable="false">settings_prayer_offset_dohr</string>
+	<string	name="pref_settings_prayer_offset_fajr"	translatable="false">settings_prayer_offset_fajr</string>
+	<string	name="pref_settings_prayer_offset_ichae"	translatable="false">settings_prayer_offset_ichae</string>
+	<string	name="pref_settings_prayer_offset_maghrib"	translatable="false">settings_prayer_offset_maghrib</string>
+	<string	name="abc_action_mode_done"	translatable="false">Done</string>
+	<string	name="abc_action_bar_home_description"	translatable="false">Navigate home</string>
+	<string	name="abc_action_bar_up_description"	translatable="false">Navigate up</string>
+	<string	name="abc_action_menu_overflow_description"	translatable="false">More options</string>
+	<string	name="abc_toolbar_collapse_description"	translatable="false">Collapse</string>
+	<string	name="abc_action_bar_home_description_format"	translatable="false">%1$s, %2$s</string>
+	<string	name="abc_action_bar_home_subtitle_description_format"	translatable="false">%1$s, %2$s, %3$s</string>
+	<string	name="abc_searchview_description_search"	translatable="false">Search</string>
+	<string	name="abc_search_hint"	translatable="false">Search…</string>
+	<string	name="abc_searchview_description_query"	translatable="false">Search query</string>
+	<string	name="abc_searchview_description_clear"	translatable="false">Clear query</string>
+	<string	name="abc_searchview_description_submit"	translatable="false">Submit query</string>
+	<string	name="abc_searchview_description_voice"	translatable="false">Voice search</string>
+	<string	name="abc_activitychooserview_choose_application"	translatable="false">Choose an app</string>
+	<string	name="abc_activity_chooser_view_see_all"	translatable="false">See all</string>
+	<string	name="abc_shareactionprovider_share_with_application"	translatable="false">Share with %s</string>
+	<string	name="abc_shareactionprovider_share_with"	translatable="false">Share with</string>
+	<string	name="status_bar_notification_info_overflow"	translatable="false">999+</string>
+	<string	name="abc_capital_on"	translatable="false">ON</string>
+	<string	name="abc_capital_off"	translatable="false">OFF</string>
+	<string	name="app_name"	translatable="false">Prayer Times</string>
+	<string	name="action_settings"	translatable="false">Settings</string>
+	<string	name="digital_clock"	translatable="false">Time</string>
+	<string	name="title_activity_qibla"	translatable="false">QiblaActivity</string>
+	<string	name="hello_world"	translatable="false">Prayer Times 1.2</string>
+	<string	name="title_activity_hijri_calendar"	translatable="false">Hijri Calendar</string>
+	<string	name="title_activity_search_location"	translatable="false">Search Location</string>
+	<string	name="title_activity_info"	translatable="false">Info/Help</string>
+	<string name="dialoginfo">Apply Prayer Times:\n1.2 \t\t\nby Ahmed Fawzey Jalal \t\t\nchannel link on melgl: \t\t\n\thttps://t.me/qtyqo2</string>
+
+	<string	name="heading"	translatable="false">Heading: 0.0</string>
+	<string	name="devName"	translatable="false">Developer: Ahmed Fawzey</string>
+	<string	name="contact"	translatable="false">Email: fawzeyahmed375@gmail.com</string>
+	<string	name="website"	translatable="false">https://t.me/qtyqo2</string>
+	<string	name="title_activity_settings"	translatable="false">Settings</string>
+	<string	name="pref_header_general"	translatable="false">General</string>
+	<string	name="pref_title_social_recommendations"	translatable="false">Enable social recommendations</string>
+	<string	name="pref_description_social_recommendations"	translatable="false">Recommendations for people to contact based on your message history</string>
+	<string	name="pref_title_display_name"	translatable="false">Display name</string>
+	<string	name="pref_default_display_name"	translatable="false">John Smith</string>
+	<string	name="pref_title_add_friends_to_messages"	translatable="false">Add friends to messages</string>
+	<string	name="pref_header_data_sync"	translatable="false">Data &amp; sync</string>
+	<string	name="pref_title_sync_frequency"	translatable="false">Sync frequency</string>
+	<string	name="pref_title_system_sync_settings"	translatable="false">System sync settings</string>
+	<string	name="pref_header_notifications"	translatable="false">Notifications</string>
+	<string	name="pref_title_new_message_notifications"	translatable="false">New message notifications</string>
+	<string	name="pref_title_ringtone"	translatable="false">Ringtone</string>
+	<string	name="pref_ringtone_silent"	translatable="false">Silent</string>
+	<string	name="pref_title_vibrate"	translatable="false">Vibrate</string>
+	<string	name="pref_location_header"	translatable="false">Location</string>
+	<string	name="pref_calc_method_header"	translatable="false">Calculation Method</string>
+	<string	name="pref_language"	translatable="false">Language</string>
+	<string	name="fajr1"	translatable="false">Fajr</string>
+	<string	name="dhuhr1"	translatable="false">Dohr</string>
+	<string	name="asr1"	translatable="false">Asr</string>
+	<string	name="maghrib1"	translatable="false">Maghrib</string>
+	<string	name="isha1"	translatable="false">Isha</string>
+	<string	name="countdowntimenext"	translatable="false">Next:</string>
+	<string	name="countdowntimein"	translatable="false">in</string>
+	<string	name="countdowntimefajr"	translatable="false">Fajr</string>
+	<string	name="countdowntimedohr"	translatable="false">Dohr</string>
+	<string	name="countdowntimeasr"	translatable="false">Asr</string>
+	<string	name="countdowntimemaghrib"	translatable="false">Maghrib</string>
+	<string	name="countdowntimeisha"	translatable="false">Isha</string>
+	<string	name="about"	translatable="false">About</string>
+	<string	name="settings"	translatable="false">Settings</string>
+	<string	name="dialogtitle"	translatable="false">Go To the Settings...</string>
+	<string	name="dialogtxt"	translatable="false">Set your site and your city</string>
+	<string name="buttondialoginfo">Yes hide</string>
+	<string name="month1">Tut</string>  
+	<string name="month2">Baba</string>  
+	<string name="month3">Hatur</string>  
+	<string name="month4">Kiahk</string>  
+	<string name="month5">Tobi</string>  
+	<string name="month6">Meshir</string>  
+	<string name="month7">Paremhat</string>  
+	<string name="month8">Paremoude</string>    
+	<string name="month9">Pashons</string>  
+	<string name="month10">Paone</string>  
+	<string name="month11">Epep</string>  
+	<string name="month12">Mesore</string>  
+	<string name="month13">Nasi</string>  
+	<string name="agemoon">Age Moon :</string>
+	<string name="julian">Julian Day :</string>
+	<string name="moonrise">Moon Rise :</string>
+	<string name="moontransit">Moon Transit</string>
+	<string name="moonset">Moon Set :</string>
+	<string name="Sunrise">Sun Rise :</string>
+	<string name="Suntransit">Zenith (SunTransit) :</string>
+	<string name="Sunset">Sun Set :</string>
+	<string name="moonIllumination">Moon Illumination :</string>
+	<string name="moonphases">Moon Phases :</string>
+	<string name="nofilefont">no file font </string>
+	<string name="direction">Direction :</string>
+	<string name="distance">Distance :</string>
+	<string name="angleKaaba">Sngle Kaaba :</string>
+	<string name="kielmeter">KM</string>
+	<string name="amsik">amsik</string>
+	<string name="problemsRepair">Fixing The Issues :</string>
+	<string name="tnotifications">Prioritizing App Notifications:</string>
+	<string name="mnotifications">Please adjust the notification settings and prioritize app notifications.</string>
+	<string name="tbattery">Removing the App from Battery Optimization List:</string>
+	<string name="mbattery">The phone system may be preventing the app from operating in the background. Please access the menu and allow the app to operate in the background.</string>
+	<string name="toastbattery">You need to add the application to the White menu to ensure that it works in the background</string>
+	<string name="toastbattery1">The application has been added to the White menu</string>
+	<string name="Enablelocation">Enable location services!</string>
+	<string name="share">Share App</string>
+	<string name="ettoast">Exit The Application :</string>
+	<string name="etoast">You can get out of the app</string>
+    <string name="developer_information">I have planned, designed, and developed this application myself. I am Ahmed Fawzi Jalal, a lover of design, programming, an Android developer, and a programmer in Java, JavaScript, Python, and Lua. I have a great passion for developing smartphone applications. I have invested a lot of time and effort in developing this application to make it light, accurate, secure, and easy to use. This is by the grace of God, and, God willing, I will continue to improve, evolve, and fix any discovered errors in this application as long as I am capable of doing so. If you wish to support the development of this application, I have a Telegram channel.</string>
+	<string	name="mywebsite"	translatable="false">https://t.me/qtyqo2</string>
+	
+
+	<string name="infoapp"><![CDATA[
+<font color="#FF000D"><font size="11">Information about the application:</font></font>
+<font color="#FFFFFF"><font size="27">Application</font><font color="#FF009404"><font size="27"> Prayer Times</font></font><font color="#FFFFFF"><font size="27"> Version </font></font><font color="#FFED00"><font size="27">1.2</font></font><font color="#FFFFFF"><font size="11"> Developed on</font></font><font color="#0E00FF"><font size="11"> Date</font></font><font color="#FFFFFF"><font size="11"> 25/3/2024</font></font><font color="#FF7119"><font size="11"> Designed and programmed by</font></font><font color="#FFFFFF"><font size="11"> Developer: </font></font><font color="#7C22B9"><font size="11">Ahmed Fawzi Jalal</font></font>
+		]]></string>
+
+	
+</resources>

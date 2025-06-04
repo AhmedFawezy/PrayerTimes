@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">مواقيت الصلاة</string>
+	<string name="city">المدينة :</string>
+	<string name="friday">الجمعة</string>
+	<string name="about">حول</string>
+    <string name="settings">الإعدادات</string>
+	<string	name="heading"	translatable="false">العنوان : 0.0</string>
+	<string	name="devName"	translatable="false">بواسطة المطور :أحمد فوزي جلال </string>
+	<string	name="contact"	translatable="false">ايميل :: fawzeyahmed375@gmail.com</string>
+	<string	name="website"	translatable="false">رابط القناة علي تليجرام :: https://t.me/qtyqo2</string>
+	<string name="isha_____">العشاء     </string>
+    <string name="maghrib">المغرب</string>
+    <string name="asr____">العصر    </string>
+    <string name="dhuhr___">الظهر   </string>
+    <string name="sunrise">الشروق</string>
+    <string name="fajr___">الفجر   </string>
+	<string name="next_prayer_____">الصلاة التالية:     </string>
+    <string name="time">الوقت المتبقي</string>
+	<string	name="countdowntimenext"	translatable="false">الصلاة القادمة :</string>
+	<string	name="countdowntimein"	translatable="false"> </string>
+	<string	name="countdowntimefajr"	translatable="false">الفجر </string>
+	<string	name="countdowntimedohr"	translatable="false">الظهر </string>
+	<string	name="countdowntimeasr"	translatable="false">العصر </string>
+	<string	name="countdowntimemaghrib"	translatable="false">المغرب </string>
+	<string	name="countdowntimeisha"	translatable="false">العشاء </string>
+	<string	name="fajr1"	translatable="false">الفجر :</string>
+	<string	name="dhuhr1"	translatable="false">الظهر :</string>
+	<string	name="asr1"	translatable="false">العصر :</string>
+	<string	name="maghrib1"	translatable="false">المغرب :</string>
+	<string	name="isha1"	translatable="false">العشاء :</string>
+	<string name="pref_header_notifications">الإشعارات و الأذان للمواقيت الصلاة  :</string>
+	<string name="manually_input">المدخلات يدويا :</string>
+    <string name="manual_select_title">ابحث عن مدينتك ...:</string>
+    <string name="auto_detect_title">اكتشاف تلقائي للموقع :</string>
+    <string name="timezone_title">المنطقة الزمنية :</string>
+    <string name="cityname_title">القرية/المدينة :</string>
+    <string name="lon_title">خط الطول :</string>
+    <string name="location">إعدادت المــــوقـع :</string>
+	<string name="lat_title">خط العرض :</string>
+	<string name="manual_select_summary">ادخل موقعك يدويا </string>
+    <string name="auto_detect_summary">يكتشف موقعك تلقائيا </string>
+	<string name="calculations">طريقة حساب وقت الصلاة :</string>
+	<string name="use_dst_option_title">التوقيت الصيفي(DST) :</string>
+    <string name="settings_time_format_title">استخدام تنسيق 24 ساعة :</string>
+    <string name="settings_islamic_date_title">التعديل علي التاريخ الهجري :</string>
+    <string name="settings_high_lats_title">طريقة حساب الوقت لخطوط العرض العالية :</string>
+    <string name="asr_method_pref_summary">اختيار طريقة حساب وقت العصر للمذاهب </string>
+    <string name="asr_method_pref_title">طريقة حساب وقت العصر :</string>
+    <string name="calc_method_pref_summary">اختيار أوقات الصلاة طريقة الحساب</string>
+	<string name="calc_method_pref_title">طريقة الحساب :</string>
+	<string name="summary_on">تعطيل التوقيت الصيفي</string>
+	<string name="summary_off">يمكنك تمكين التوقيت الصيفي فقط إذا لم يتم تمكينه بواسطة هاتفك.</string>
+	<string name="enable_ishaadhan_title">أذان العشاء :</string>
+    <string name="enable_maghribadhan_title">أذان المغرب :</string>
+    <string name="enable_asradhan_title">أذان العصر :</string>
+    <string name="enable_dhuhradhan_title">أذان الظهر :</string>
+    <string name="enable_fajradhan_title">أذان الفجر :</string>
+    <string name="enable_adhan_title">تمكين الأذان</string>
+    <string name="enable_notifs_title">تمكين الإشعارات</string>
+	<string name="offset_isha_dialogTitle">تعديل وقت الصلاة </string>
+    <string name="settings_prayers_times">التعديل علي اوقات الصلاة :</string>
+	<string name="settings_about_summary">معرفة معلومات عن التطبيق و مطور التطبيق </string>
+    <string name="settings_about_title">حول والإصدار :</string>
+    <string name="lang_select_option_summary">اختيار لغة التطبيق</string>
+    <string name="language_and_about">اللغة و حول :</string>
+	<string name="lang_select_option_title">حدد اللغة للتطبيق :</string>
+
+	<string name="look_for_your_city_">ابحث عن مدينتك ...</string>
+	
+	<string	name="now_time">حان الآن :</string> 
+	<string	name="my_city"	translatable="false">لمدينة :</string>
+	<string	name="datehj">ھ </string>
+	<string	name="dateco"	translatable="false">القبطي</string>
+	<string	name="dategr"	translatable="false">ميلادي</string>
+	<string name="dialoginfo">تطبيق مواقيت الصلاة : إصدار ١.٢\t\t\n بواسطة أحمد فوزي جلال \t\t\n  رابط القناة علي تليجرام :\t\t\n\t https://t.me/qtyqo2</string>
+	<string name="buttondialoginfo">نعـــــم إخــفاء</string>
+	<string name="month1">توت</string>  
+	<string name="month2">بابه</string>  
+	<string name="month3">هاتور</string>  
+	<string name="month4">كيهك</string>  
+	<string name="month5">طوبة</string>  
+	<string name="month6">امشير</string>  
+	<string name="month7">برمهات</string>  
+	<string name="month8">بارموده</string>   
+	<string name="month9">بشنس</string>  
+	<string name="month10">بؤونة</string>  
+	<string name="month11">آبيب</string>  
+	<string name="month12">مسري</string>  
+	<string name="month13">نسيئ</string>  
+	<string name="agemoon">عمر القمر :</string>
+	<string name="julian">اليوم الجولياني :</string>
+	<string name="moonrise">طلوع القمر :</string>
+	<string name="moontransit">القمر العابر :</string>
+	<string name="moonset">غروب القمر :</string>
+	<string name="Sunrise">شروق الشمس :</string>
+	<string name="Suntransit">ذروة الشمس :</string>
+	<string name="Sunset">غروب الشمس :</string>
+	<string name="moonIllumination">إضاءة القمر :</string>
+	<string name="moonphases">مراحل القمر :</string>
+	<string name="nofilefont">لا يوجد ملف الخط </string>
+	<string name="direction">الاتجاة :</string>
+	<string name="distance">المسافة :</string>
+	<string name="angleKaaba">زاوية الكعبة :</string>
+	<string name="kielmeter">بالكيلو متر :</string>
+	<string name="share">مشـاركة التطبيق</string>
+    <string name="amsik">إمساك</string>
+	<string name="problemsRepair">اصلاح المشاكل :</string>
+	<string name="tnotifications">الأولوية لإشعارات التطبيق :</string>
+	<string name="mnotifications">الرجاء تغيير اعدادات الاشعارات واعطاء التطبيق الأولوية لإشعارات. </string>
+	<string name="tbattery">إزالة التطبيق من قائمة تحسين البطارية :</string>
+	<string name="mbattery">قد يقوم نظام الهاتف بمنع التطبيق من العمل في الخلفية. يرجى الدخول للقائمة والسماح للتطبيق بالعمل في الخلفية.</string>
+	<string name="toastbattery">تحتاج إلى إضافة التطبيق إلى القائمة البيضاء لضمان عمله في الخلفية</string>
+	<string name="toastbattery1">تمت إضافة التطبيق إلى القائمة البيضاء</string>
+	<string name="Enablelocation">فعل خدمات تحديد الموقع</string>
+	<string name="ettoast">الخروج من التطبيق :</string>
+	<string name="etoast">يمكنك الخروج من التطبيق</string>
+	
+    <string name="developer_information">تم تخطيط وتصميم و تطوير هذا التطبيق من قبلي،          أنا احمد فوزي جلال من محبي التصميم والبرمجة و مطور اندرويد ومبرمج للغة جافا وجافا سكريبت وباثيون ولوا ، ولديّا شغف كبير لتطوير تطبيقات الهواتف الذكية.  لقد بذلت الكثر من الوقت و الجهد في تطوير هذا التطبيق ليصبح خفيف ودقيق وآمن وسهل الإستخدام، وهذا فضل من الله وأنا إن شاء الله سأستمر في تحسين وتطور وإصلاح أي أخطاء مكتشفة في هذا التطبيق ما دمت قادرا على ذالك.  إذا كنت ترغب في دعم تطوير هذا التطبيق يوجد قناة لي علي تيلجرام .</string>
+	<string	name="mywebsite"	translatable="false">https://t.me/qtyqo2</string>
+	<string name="infoapp"><![CDATA[
+<font color="#FF000D"><font size="11">معلومات حول التطبيق:</font></font>
+<font color="#FFFFFF"><font size="27">التطبيق</font><font color="#FF009404"><font size="27"> أوقات الصلاة</font></font><font color="#FFFFFF"><font size="27"> الإصدار </font></font><font color="#FFED00"><font size="27">1.2</font></font><font color="#FFFFFF"><font size="11"> تم تطويره في تاريخ</font></font><font color="#0E00FF"><font size="11"> 25/3/2024</font></font><font color="#FF7119"><font size="11"> تم التصميم والبرمجة بواسطة</font></font><font color="#FFFFFF"><font size="11"> المطور: </font></font><font color="#7C22B9"><font size="11">أحمد فوزي جلال</font></font>
+		]]></string>
+	
+</resources>

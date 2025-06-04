@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.PrayerTimes" 
+	
+	platformBuildVersionCode="23" platformBuildVersionName="6.0.1">
+	<!-- للسماح للتطبيق بإنشاء مقابس شبكات واستخدام بروتوكولات شبكات مخصصة. ويوفر المتصفح وتطبيقات أخرى طرقًا لإرسال البيانات إلى الإنترنت، ولذلك لا يعد هذا الإذن مطلوبًا لإرسال البيانات إلى الإنترنت. -->
+    <uses-permission
+        android:name="android.permission.INTERNET" />
+    <!-- ‏للسماح للتطبيق بتحديد موقعك التقريبي الذي يستمد من خدمات الموقع باستخدام مصادر المواقع التي تستخدم الشبكات مثل أبراج الجوال وتقنية Wi-Fi. يتعين توفر خدمات المواقع هذه وتشغيلها على جهازك للتطبيق كي يستخدمها. وقد تستخدم التطبيقات هذا لتحديد موقعك التقريبي. -->
+    <uses-permission
+        android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- ‏للسماح للتطبيق بتحديد موقعك بدقة وهذا باستخدام نظام تحديد المواقع العالمي (GPS) أو مصادر المواقع التي تستخدم الشبكات مثل أبراج الجوال أو تقنية Wi-Fi. يتعين توفر خدمات المواقع هذه وتشغيلها على جهازك للتطبيق كي يستخدمها. وقد تستخدم التطبيقات هذا لتحديد موقعك وقد تستهلك مزيدًا من طاقة البطارية. -->
+    <uses-permission
+        android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- للسماح للتطبيق بضبط المنبه في تطبيق المنبه المثبّت. ربما لا تنفذ بعض تطبيقات المنبه هذه الميزة. -->
+    <uses-permission
+        android:name="com.android.alarm.permission.SET_ALARM" />
+    <!-- للسماح للتطبيق ببدء تشغيل نفسه عقب انتهاء النظام من التشغيل. قد يؤدي ذلك إلى استغراق المزيد من الوقت عن بدء الهاتف والسماح للتطبيق بإبطاء الأداء الإجمالي للهاتف حيث يتم تشغيله دائمًا. -->
+    <uses-permission
+        android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <!-- للسماح للتطبيق بمنع الهاتف من الانتقال إلى وضع السكون. -->
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK" />
+	<uses-feature android:name="android.hardware.sensor.accelerometer" android:required="true" />
+    <uses-feature android:name="android.hardware.sensor.compass" android:required="true" />
+    <uses-feature android:name="android.hardware.location" android:required="true" />
+    <supports-screens android:anyDensity="true" android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" />
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+		<application
+		android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/afg"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+		android:resizeableActivity = "true">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+<activity
+			android:name=".Moon"/>
+		<activity
+			android:name=".Qaaba"/>
+		<activity
+			android:name=".AboutAndVersion"/>
+		<activity android:label="@string/title_activity_settings" android:name=".SettingsActivity" />
+        <activity android:label="InputManually" android:name=".InputManually" />
+        <activity android:label="@string/title_activity_search_location" android:name=".SearchLocationActivity" />
+		<service android:name=".AdhanService" />
+        <service android:name=".CountDownService" android:enabled="true" />
+        
+        <service
+            android:name=".TimeUpdaterService" />
+        <service
+            android:name=".AlarmService" />
+        <receiver
+            android:name=".AlarmReceiver"
+            android:enabled="true" />
+        <receiver
+            android:name=".TimeUpdaterReceiver"
+            android:enabled="true" />
+        
+        <receiver
+            android:name=".DeviceBootReceiver"
+            android:enabled="true">
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.BOOT_COMPLETED" />
+                <!-- للسماح للتطبيق ببدء تشغيل نفسه عقب انتهاء النظام من التشغيل. قد يؤدي ذلك إلى استغراق المزيد من الوقت عن بدء الهاتف والسماح للتطبيق بإبطاء الأداء الإجمالي للهاتف حيث يتم تشغيله دائمًا. -->
+                <uses-permission
+                    android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+            </intent-filter>
+		</receiver>
+		<receiver android:name=".UpdateWidgetReceiver" android:enabled="true" />
+
+        <receiver android:label="Prayer Times Widget" android:name=".PrayTimesWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="android.appwidget.action.APPWIDGET_ENABLED" />
+                <action android:name="android.intent.action.DATE_CHANGED" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="android.intent.action.DATE_CHANGED" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/widget1_info" />
+        </receiver>
+		<provider android:name="com.PrayerTimes.ChangeFontDefault" 
+			android:authorities="com.PrayerTimes.ChangeFontDefault" />
+		
+    </application>
+
+</manifest>

@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/image_1"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+
+		<LinearLayout
+			android:id="@+id/linear2"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="100dp"
+			android:padding="8dp"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="horizontal"
+			android:weightSum="2">
+
+			<LinearLayout
+				android:id="@+id/linear18"
+				android:layout_width="200dp"
+				android:layout_height="match_parent"
+				android:orientation="vertical"
+				android:weightSum="2">
+
+				<LinearLayout
+					android:id="@+id/linear26"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="5dp"
+					android:paddingTop="2dp"
+					android:gravity="right"
+					android:orientation="horizontal"/>
+
+				<LinearLayout
+					android:id="@+id/linear28"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="20dp"
+					android:gravity="right"
+					android:paddingRight="5dp"
+					android:paddingLeft="2dp"
+					android:paddingBottom="5dp"
+					android:paddingTop="5dp"
+					android:orientation="horizontal"
+					android:weightSum="2"
+					android:background="@drawable/bgdate"
+					android:layout_gravity="bottom">
+
+					<TextView
+						android:id="@+id/dateTextView"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="0dp"
+						android:text="Date"
+						android:textSize="12sp"
+						android:textStyle="bold"
+						android:textColor="#FFFFFF"
+						android:layout_weight="1"/>
+
+					<TextView
+						android:id="@+id/digitalClock1"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginTop="2dp"
+						android:padding="0dp"
+						android:gravity="right|center_vertical"
+						android:text="ABC"
+						android:textSize="12sp"
+						android:textStyle="bold"
+						android:textColor="#FFFFFF"
+						android:layout_gravity="right"
+						android:layout_weight="1"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="wrap_content"
+					android:layout_height="50dp">
+
+					<ImageView
+						android:padding="8dp"
+						android:id="@+id/settingsBtn"
+						android:layout_width="48dp"
+						android:layout_height="48dp"
+						android:scaleType="centerInside"
+						android:layout_weight="1"
+						android:onClick="goToSettings"
+						android:background="@drawable/trystyle"/>
+
+					<TextView
+						android:textSize="12sp"
+						android:layout_weight="1"
+						android:gravity="center"
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="04:14 AM"
+						android:id="@+id/amsik"
+						android:layout_gravity="center"/>
+
+					<TextClock
+						android:format12Hour="hh:mm:ss a"
+						android:textSize="12sp"
+						android:textStyle="bold"
+						android:textColor="#FFFFFF"
+						android:background="@drawable/bgtxt"
+						android:layout_gravity="right|center"
+						android:gravity="center"
+						android:layout_weight="1"
+						android:layout_height="wrap_content"
+						android:layout_width="100dp"
+						android:text="Text"
+						android:layout_marginLeft="0dp"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:id="@+id/linear24"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:padding="0dp"
+					android:orientation="horizontal"
+					android:background="@drawable/bgtxttime">
+
+					<TextView
+						android:layout_height="wrap_content"
+						android:layout_width="wrap_content"
+						android:text="@string/city"
+						android:paddingLeft="2dp"
+						android:textSize="18sp"
+						android:textStyle="bold"
+						android:textColor="#FFFFFF"
+						android:layout_gravity="center"/>
+
+					<TextView
+						android:id="@+id/CityText"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginLeft="20dp"
+						android:padding="8dp"
+						android:background="@drawable/bglin"
+						android:gravity="center_vertical"
+						android:text="CityText"
+						android:textSize="18sp"
+						android:textStyle="bold"
+						android:textColor="#FFFFFF"
+						android:layout_gravity="right"
+						android:layout_weight="1"/>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/linear3"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="horizontal">
+
+			<LinearLayout
+				android:id="@+id/linear8"
+				android:layout_width="250dp"
+				android:layout_height="wrap_content"
+				android:background="@drawable/bglin"
+				android:orientation="horizontal"
+				android:weightSum="2">
+
+				<TextView
+					android:id="@+id/FajrText"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="@string/fajr___"
+					android:textSize="18sp"
+					android:textStyle="bold"
+					android:textColor="#FFFFFF"
+					android:layout_weight="1"/>
+
+				<TextView
+					android:id="@+id/fajrTime"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:background="@drawable/bgcity"
+					android:gravity="center_horizontal|center_vertical"
+					android:text="--:--"
+					android:textSize="18sp"
+					android:textStyle="bold"
+					android:textColor="#000000"
+					android:layout_weight="1"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/linear4"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="horizontal">
+
+			<LinearLayout
+				android:id="@+id/linear9"
+				android:layout_width="250dp"
+				android:layout_height="wrap_content"
+				android:background="@drawable/bglin"
+				android:orientation="horizontal"
+				android:weightSum="2">
+
+				<TextView
+					android:id="@+id/SunriseText"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="@string/sunrise"
+					android:textSize="18sp"
+					android:textStyle="bold"
+					android:textColor="#FFFFFF"
+					android:layout_weight="1"/>
+
+				<TextView
+					android:id="@+id/sunriseTime"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:background="@drawable/bgcity"
+					android:gravity="center_horizontal|center_vertical"
+					android:text="--:--"
+					android:textSize="18sp"
+					android:textStyle="bold"
+					android:textColor="#000000"
+					android:layout_weight="1"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/linear5"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="horizontal">
+
+			<LinearLayout
+				android:id="@+id/linear10"
+				android:layout_width="250dp"
+				android:layout_height="wrap_content"
+				android:background="@drawable/bglin"
+				android:orientation="horizontal"
+				android:weightSum="2">
+
+				<TextView
+					android:id="@+id/DhuhrText"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="@string/dhuhr___"
+					android:textSize="18sp"
+					android:textStyle="bold"
+					android:textColor="#FFFFFF"
+					android:layout_weight="1"/>
+
+				<TextView
+					android:id="@+id/dhuhrTime"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:background="@drawable/bgcity"
+					android:gravity="center_horizontal|center_vertical"
+					android:text="--:--"
+					android:textSize="18sp"
+					android:textStyle="bold"
+					android:textColor="#000000"
+					android:layout_weight="1"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/linear6"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="horizontal">
+
+			<LinearLayout
+				android:id="@+id/linear11"
+				android:layout_width="250dp"
+				android:layout_height="wrap_content"
+				android:background="@drawable/bglin"
+				android:orientation="horizontal"
+				android:weightSum="2">
+
+				<TextView
+					android:id="@+id/AsrText"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="@string/asr____"
+					android:textSize="18sp"
+					android:textStyle="bold"
+					android:textColor="#FFFFFF"
+					android:layout_weight="1"/>
+
+				<TextView
+					android:id="@+id/asrTime"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:background="@drawable/bgcity"
+					android:gravity="center_horizontal|center_vertical"
+					android:text="--:--"
+					android:textSize="18sp"
+					android:textStyle="bold"
+					android:textColor="#000000"
+					android:layout_weight="1"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/linear7"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="horizontal">
+
+			<LinearLayout
+				android:id="@+id/linear14"
+				android:layout_width="250dp"
+				android:layout_height="wrap_content"
+				android:background="@drawable/bglin"
+				android:orientation="horizontal"
+				android:weightSum="2">
+
+				<TextView
+					android:id="@+id/MaghribText"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="4dp"
+					android:text="@string/maghrib"
+					android:textSize="18sp"
+					android:textStyle="bold"
+					android:textColor="#FFFFFF"
+					android:layout_weight="1"/>
+
+				<TextView
+					android:id="@+id/maghribTime"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:background="@drawable/bgcity"
+					android:gravity="center_horizontal|center_vertical"
+					android:text="--:--"
+					android:textSize="18sp"
+					android:textStyle="bold"
+					android:textColor="#000000"
+					android:layout_weight="1"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/linear13"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="horizontal">
+
+			<LinearLayout
+				android:id="@+id/linear15"
+				android:layout_width="250dp"
+				android:layout_height="wrap_content"
+				android:background="@drawable/bglin"
+				android:orientation="horizontal"
+				android:weightSum="2">
+
+				<TextView
+					android:id="@+id/IshaText"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:text="@string/isha_____"
+					android:textSize="18sp"
+					android:textStyle="bold"
+					android:textColor="#FFFFFF"
+					android:layout_weight="1"/>
+
+				<TextView
+					android:id="@+id/ishaTime"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:padding="8dp"
+					android:background="@drawable/bgcity"
+					android:gravity="center_horizontal|center_vertical"
+					android:text="--:--"
+					android:textSize="18sp"
+					android:textStyle="bold"
+					android:textColor="#000000"
+					android:layout_weight="1"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:id="@+id/linear12"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:paddingTop="5dp"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="horizontal">
+
+			<LinearLayout
+				android:id="@+id/linear16"
+				android:layout_width="250dp"
+				android:layout_height="wrap_content"
+				android:padding="0dp"
+				android:orientation="horizontal"
+				android:weightSum="2">
+
+				<LinearLayout
+					android:id="@+id/linear23"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:background="@drawable/bgdate"
+					android:gravity="center_horizontal|center_vertical"
+					android:orientation="horizontal"
+					android:weightSum="2"
+					android:padding="0dp">
+
+					<TextView
+						android:id="@+id/NextTextTime"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:padding="0dp"
+						android:text="@string/next_prayer_____"
+						android:textSize="18sp"
+						android:textStyle="bold"
+						android:gravity="center"
+						android:textColor="#FFFFFF"
+						android:layout_weight="1"/>
+
+					<TextView
+						android:id="@+id/NextText"
+						android:layout_width="70dp"
+						android:layout_height="50dp"
+						android:padding="8dp"
+						android:layout_gravity="right"
+						android:text="@string/time"
+						android:background="@drawable/bgtxt"
+						android:textSize="18sp"
+						android:textStyle="bold"
+						android:textColor="#FFFFFF"
+						android:gravity="center"
+						android:layout_weight="1"/>
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</LinearLayout>
+

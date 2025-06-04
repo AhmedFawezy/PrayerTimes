@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/pref_header_notifications">
+        <CheckBoxPreference
+			android:textSize="14sp"
+			android:icon="@drawable/ic_notifications" 
+            android:title="@string/enable_notifs_title"
+            android:key="enable_notifs"
+            android:defaultValue="false" />
+        <CheckBoxPreference
+			android:icon="@drawable/icons10" 
+            android:title="@string/enable_adhan_title"
+            android:key="enable_adhan"
+            android:defaultValue="false" />
+        <CheckBoxPreference
+			android:icon="@drawable/icons15" 
+            android:title="@string/enable_fajradhan_title"
+            android:key="enable_fajrAdhan"
+            android:dependency="enable_adhan"
+            android:defaultValue="false" />
+        <CheckBoxPreference
+			android:icon="@drawable/icons15" 
+            android:title="@string/enable_dhuhradhan_title"
+            android:key="enable_dhuhrAdhan"
+            android:dependency="enable_adhan"
+            android:defaultValue="false" />
+        <CheckBoxPreference
+			android:icon="@drawable/icons15" 
+            android:title="@string/enable_asradhan_title"
+            android:key="enable_asrAdhan"
+            android:dependency="enable_adhan"
+            android:defaultValue="false" />
+        <CheckBoxPreference
+			android:icon="@drawable/icons15" 
+            android:title="@string/enable_maghribadhan_title"
+            android:key="enable_maghribAdhan"
+            android:dependency="enable_adhan"
+            android:defaultValue="false" />
+        <CheckBoxPreference
+			android:icon="@drawable/icons15" 
+            android:title="@string/enable_ishaadhan_title"
+            android:key="enable_ishaAdhan"
+            android:dependency="enable_adhan"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

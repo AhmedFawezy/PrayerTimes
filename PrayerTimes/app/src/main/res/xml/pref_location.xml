@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/location">
+        <EditTextPreference
+			android:icon="@drawable/location" 
+			android:title="@string/lat_title"
+			android:selectable="false"
+			android:key="lat"
+			android:defaultValue="27.18096"
+			android:summary="@string/lat_title" />
+		
+        <EditTextPreference
+			android:icon="@drawable/location" 
+            android:title="@string/lon_title"
+            android:selectable="false"
+            android:key="lon"
+			android:defaultValue="31.18386"
+			android:summary="@string/lon_title" />
+        <EditTextPreference
+			android:icon="@drawable/location" 
+            android:title="@string/cityname_title"
+            android:selectable="false"
+            android:key="cityname"
+			android:defaultValue="CustomCity"
+            android:summary="@string/cityname_title" />
+        <EditTextPreference
+			android:icon="@drawable/location" 
+			android:defaultValue="2.0"
+            android:title="@string/timezone_title"
+            android:selectable="false"
+            android:key="timezone"
+            android:summary="@string/timezone_title"/>
+        <Preference
+			android:icon="@drawable/mylocation" 
+            android:title="@string/auto_detect_title"
+            android:key="auto_detect"
+            android:summary="@string/auto_detect_summary" />
+    </PreferenceCategory>
+	
+	<PreferenceCategory
+		android:title="@string/manually_input">
+		<Preference
+			android:icon="@drawable/icons7" 
+            android:title="@string/manual_select_title"
+            android:key="manual_select"
+            android:summary="@string/manual_select_summary" />
+		<!--<Preference
+			android:icon="@drawable/input" 
+			android:key="manual_input"
+			android:title="input Manually"
+			android:summary="input Manually select the location"
+			/>-->
+
+    </PreferenceCategory>
+	<!--<PreferenceCategory android:title="Location Information">
+	<CheckBoxPreference android:title="Manually Input the Position" android:key="prefs_is_manual_input" android:defaultValue="false" android:summaryOn="If this CheckBox is enabled, manual entries of location will be used and input values will be overwritten to current GPS position." android:summaryOff="If this CheckBox is enabled, manual entries of location will be used and input values will be overwritten to current GPS position." />
+	<EditTextPreference android:title="City Name" android:key="cityname1" android:summary="Custom City Name" android:dependency="prefs_is_manual_input" android:defaultValue="Cairo" />
+	<EditTextPreference
+	android:name="Latitude"
+	android:title="Enter Latitude Values" 
+	android:key="lat1"
+	android:summary="Enter Latitude Values in Degrees [+]Northern Hemisphere [-90Â°,90Â°]" 
+	android:dependency="prefs_is_manual_input" 
+	android:defaultValue="30.06263" />
+	<EditTextPreference android:name="Longitude" android:title="Enter Longitude Value" android:key="lon1" android:summary="Enter Longitude Value in Degrees [+]East [-180Â°,180Â°]" android:dependency="prefs_is_manual_input" android:defaultValue="31.24967" />
+	<EditTextPreference android:name="TimeZone"  android:title="Time Zone" android:key="timezone1" android:summary="Set Time Zone [-11,+13]" android:dependency="prefs_is_manual_input" android:defaultValue="2" />
+	</PreferenceCategory>-->
+</PreferenceScreen>
